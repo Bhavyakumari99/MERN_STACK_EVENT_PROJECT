@@ -1,5 +1,5 @@
 import express from "express";
-import { dbconnection } from "./database/dbConnection.js";
+import { dbconnection } from "./database/dbconnection.js";
 import dotenv from "dotenv";
 import messageRouter from "./router/messageRouter.js";
 import cors from "cors";
